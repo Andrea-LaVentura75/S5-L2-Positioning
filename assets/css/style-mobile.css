@@ -215,6 +215,55 @@
   footer p strong {
     color: blueviolet;
   }
+  .fix1 {
+    font-size: 42px;
+    color: #00a0c6;
+    position: fixed;
+    right: -11px;
+    bottom: 180px;
+    z-index: 1000;
+    background-color: #ffffff75;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: 3px solid white;
+  }
+
+  .fix2 {
+    font-size: 42px;
+    color: #00a0c6;
+    position: fixed;
+    right: -11px;
+    bottom: 90px;
+    z-index: 1000;
+    background-color: #ffffff75;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: 3px solid white;
+  }
+  .fix3 {
+    font-size: 42px;
+    color: #00a0c6;
+    position: fixed;
+    right: -11px;
+    bottom: 0;
+    z-index: 1000;
+    background-color: #ffffff75;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: 3px solid white;
+  }
+  .fix2 a {
+    color: #00a0c6;
+  }
+  .fix3 a {
+    color: #c64f00;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -636,7 +685,7 @@
   }
   .video iframe {
     border-radius: 10px;
-    width: 35em;
+    width: 30em;
     height: 8em;
   }
   .sub {
@@ -721,6 +770,7 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     border: 3px solid white;
+    bottom: initial;
   }
 
   .fix2 {
@@ -736,6 +786,7 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     border: 3px solid white;
+    bottom: initial;
   }
   .fix3 {
     font-size: 42px;
